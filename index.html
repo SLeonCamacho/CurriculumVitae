@@ -1,75 +1,205 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículum Vitae</title>
-    <!-- Agrega enlaces a los archivos CSS y JavaScript de Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</head>
-<body>
-    <header>
-        <h1>Mi Currículum</h1>
-    </header>
-    <section>
-        <h2>Datos Personales</h2>
-        <p>Nombre: Juan Pérez</p>
-        <p>Correo Electrónico: juan.perez@email.com</p>
-        <p>Teléfono: 123-456-7890</p>
-        <!-- Agrega una imagen con una descripción -->
-        <img src="mi-foto.jpg" alt="Fotografía de Juan Pérez">
-    </section>
-    <section>
-        <h2>Estudios</h2>
-        <!-- Agrega una tabla accesible con datos de estudios -->
-        <table class="table table-bordered">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taller Principio Perceptible</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha384-k6RqeWYcB47KzU4qDvIvUhqM3Z4g3D8tn6OsHJyJxRwj/em+4nKKcfab56eIWZV6"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <header
+        class="text-center mb-3 p-3 bg-primary text-white rounded"
+        tabindex="0"
+      >
+        <h1 class="fw-bold">Currículum</h1>
+        <img
+          src="./resources/img/fotoSantiagoLeon.png"
+          alt="Fotografía de perfil de Santiago León, sonriendo, con fondo neutro."
+          class="img-thumbnail rounded-circle shadow-lg mt-3"
+          width="200"
+          tabindex="0"
+        />
+      </header>
+
+      <section class="bg-dark text-white mb-3 p-4 rounded" tabindex="0">
+        <h2 class="mb-3" tabindex="0">Datos Personales</h2>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item bg-dark text-white">
+            <i class="fas fa-user"></i> Nombre: Santiago León
+          </li>
+          <li class="list-group-item bg-dark text-white">
+            <i class="fas fa-envelope"></i> Correo Electrónico:
+            sleoncamacho@outlook.com
+          </li>
+          <li class="list-group-item bg-dark text-white">
+            <i class="fas fa-phone"></i> Teléfono: +593 97 924 3872
+          </li>
+          <li class="list-group-item bg-dark text-white">
+            <i class="fab fa-linkedin"></i> LinkedIn: /sleoncamacho
+          </li>
+          <li class="list-group-item bg-dark text-white">
+            <i class="fab fa-github"></i> GitHub: /SLeonCamacho
+          </li>
+          <li class="list-group-item bg-dark text-white">
+            <i class="fas fa-map-marker-alt"></i> Ubicación: Quito, Ecuador
+          </li>
+          <li class="list-group-item bg-dark text-white">
+            <i class="fas fa-info-circle"></i> Descripción: Estudiante estricto,
+            diligente y con gran convicción de trabajo, esto me ha permitido
+            evolucionar mis habilidades de forma concreta y completa. A su vez
+            poseo un carácter lógico y objetivo que me permite solucionar
+            eventualidades de forma eficiente y trabajar en equipo.
+          </li>
+        </ul>
+      </section>
+
+      <section class="bg-primary text-white p-4 mb-3 rounded" tabindex="0">
+        <h2 class="mb-3">Estudios</h2>
+        <div class="table-responsive rounded">
+          <table class="table table-striped table-hover" tabindex="0">
             <thead>
-                <tr>
-                    <th>Título</th>
-                    <th>Institución</th>
-                    <th>Año de Graduación</th>
-                </tr>
+              <tr>
+                <th scope="col" tabindex="0">Año</th>
+                <th scope="col" tabindex="0">Estudios y cursos</th>
+                <th scope="col" tabindex="0">Institución</th>
+              </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>Ingeniería Informática</td>
-                    <td>Universidad XYZ</td>
-                    <td>2020</td>
-                </tr>
-                <tr>
-                    <td>Máster en Administración de Empresas</td>
-                    <td>Universidad ABC</td>
-                    <td>2022</td>
-                </tr>
+              <tr>
+                <td tabindex="0">2018 - Actualidad</td>
+                <td tabindex="0">Ingeniería de Software</td>
+                <td tabindex="0">ESCUELA POLITÉCNICA NACIONAL</td>
+              </tr>
+              <tr>
+                <td tabindex="0">2020</td>
+                <td tabindex="0">CURSO DE DATA BASE MANAGEMENT</td>
+                <td tabindex="0">Udemy</td>
+              </tr>
+              <tr>
+                <td tabindex="0">2021</td>
+                <td tabindex="0">LINUX ESSENTIALS</td>
+                <td tabindex="0">Escuela Politécnica Nacional - Club Linux</td>
+              </tr>
+              <tr>
+                <td tabindex="0">2021</td>
+                <td tabindex="0">AI LEARNING EN PYTHON</td>
+                <td tabindex="0">Udemy</td>
+              </tr>
+              <tr>
+                <td tabindex="0">2022</td>
+                <td tabindex="0">
+                  SCRUM FOUNDATION PROFESSIONAL CERTIFICATE SFPC
+                </td>
+                <td tabindex="0">CertiProf</td>
+              </tr>
+              <tr>
+                <td tabindex="0">2022</td>
+                <td tabindex="0">AWS SECURITY FUNDAMENTALS - 2ND EDITION</td>
+                <td tabindex="0">AWS Training and Certification</td>
+              </tr>
+              <tr>
+                <td tabindex="0">2022</td>
+                <td tabindex="0">
+                  GETTING STARTED WITH AWS SECURITY, IDENTITY, AND COMPLIANCE
+                </td>
+                <td tabindex="0">AWS Training and Certification</td>
+              </tr>
+              <tr>
+                <td tabindex="0">2022</td>
+                <td tabindex="0">AWS WELL - ARCHITECTED</td>
+                <td tabindex="0">AWS Training and Certification</td>
+              </tr>
             </tbody>
-        </table>
-    </section>
-    <section>
-        <h2>Experiencia Profesional</h2>
-        <p>Cargo: Desarrollador Web</p>
-        <p>Empresa: XYZ Tech Solutions</p>
-        <p>Fecha de Inicio: Enero 2020</p>
-        <p>Descripción: Desarrollo de aplicaciones web y mantenimiento de sistemas existentes.</p>
-    </section>
-    <section>
-        <h2>Video</h2>
-        <!-- Agrega un video con subtítulos -->
-        <video controls>
-            <source src="mi-video.mp4" type="video/mp4">
-            <track src="subtitulos.vtt" kind="subtitles" srclang="es" label="Subtítulos en español">
-        </video>
-    </section>
-    <section>
-        <h2>Referencias Personales</h2>
-        <p>Nombre de Referencia 1: María López</p>
-        <p>Correo Electrónico: maria.lopez@email.com</p>
-        <p>Teléfono: 987-654-3210</p>
-        <p>Nombre de Referencia 2: José Rodríguez</p>
-        <p>Correo Electrónico: jose.rodriguez@email.com</p>
-        <p>Teléfono: 567-890-1234</p>
-    </section>
-</body>
+          </table>
+        </div>
+      </section>
+
+      <section class="bg-dark text-white mb-3 p-4 rounded" tabindex="0">
+        <h2 class="mb-3">Experiencia Profesional</h2>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item bg-dark text-white" tabindex="0">
+            Abril-2023 a Mayo-2023 - Desarrollador VBA - Consultoria de
+            Peritaje: Jaime Paz
+          </li>
+          <li class="list-group-item bg-dark text-white" tabindex="0">
+            Junio-2023 a Enero-2024 - Desarrollador Web - KaneCode
+          </li>
+        </ul>
+      </section>
+
+      <section class="bg-primary text-white p-4 rounded mb-3" tabindex="0">
+        <h2>Virtudes y ¿por qué este trabajo?</h2>
+        <div class="d-flex justify-content-center">
+          <div class="embed-responsive embed-responsive-16by9 rounded">
+            <video controls>
+              <source src="./resources/videos/" type="video/mp4" />
+              <track
+                src="subtitulos.vtt"
+                kind="subtitles"
+                srclang="es"
+                label="Subtítulos en español"
+                tabindex="0"
+              />
+              Lo siento, tu navegador no soporta videos embebidos.
+            </video>
+          </div>
+        </div>
+        <p class="mt-3" tabindex="0">
+          Descripción del video para personas con discapacidad visual: Este
+          video contiene una presentación sobre mis virtudes y las razones por
+          las que estoy buscando trabajo.
+        </p>
+      </section>
+
+      <section class="bg-dark text-white p-4 mb-3 rounded" tabindex="0">
+        <h2 class="mb-3">Referencias Personales</h2>
+        <div class="table-responsive rounded">
+          <table class="table table-striped table-hover" tabindex="0">
+            <thead>
+              <tr>
+                <th scope="col" tabindex="0">Nombre</th>
+                <th scope="col" tabindex="0">Cargo</th>
+                <th scope="col" tabindex="0">Empresa</th>
+                <th scope="col" tabindex="0">Teléfono</th>
+                <th scope="col" tabindex="0">Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td tabindex="0">José Ricardo León</td>
+                <td tabindex="0">Arquitecto</td>
+                <td tabindex="0">Edimca</td>
+                <td tabindex="0">+593 98 788 4767</td>
+                <td tabindex="0">joseleon2410@gmail.com</td>
+              </tr>
+              <tr>
+                <td tabindex="0">Cristian Dany Ortega</td>
+                <td tabindex="0">Ingeniero en Contabilidad y Auditoría</td>
+                <td tabindex="0">N/A</td>
+                <td tabindex="0">+593 98 938 4005</td>
+                <td tabindex="0">N/A</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>
